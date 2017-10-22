@@ -1,0 +1,57 @@
+*HTML*
+
+-        <div id="event-name">ARIA Bootcamp</div>
++        <h1 id="event-name">ARIA Bootcamp</h1>
+
+-        <div class="heading">About this Page</div>
++        <h2 class="heading">About this Page</h2>
+
+-          <span id="text-control">Show more</span>
++          <button type="button" id="text-control">Show more</button>
+
+-        <div class="heading">Accessible Web Design</div>
++        <h2 class="heading">Accessible Web Design</h2>
+
+-        <div class="heading">ARIA</div>
++        <h2 class="heading">ARIA</h2>
+
+-        <div class="heading">Post-Workshop Questionnaire</div>
++        <h2 class="heading">Post-Workshop Questionnaire</h2>
+
+-            <div class="label">Your name:</div>
++            <label for="name" class="label">Your name:</label>
+
+-            <div class="label">What have you learned today about ARIA?</div>
++            <label for="question" class="label">What have you learned today about ARIA?</label>
+
+-        <div class="heading">Resources</div>
++        <h2 class="heading">Resources</h2>
+
+
+-          <a href="http://uw.edu/home/siteinfo/form">Contact Us</a>
+-          <a href="http://www.washington.edu/jobs">Jobs</a>
+-          <a href="http://www.washington.edu/safety">Campus Safety</a>
+-          <a href="http://myuw.washington.edu/">My UW</a>
+-          <a href="http://www.washington.edu/rules/wac">Rules Docket</a>
+-          <a href="http://www.washington.edu/online/privacy/">Privacy</a>
+-          <a href="http://www.washington.edu/online/terms/">Terms</a>
++          <ul>
++            <li><a href="http://uw.edu/home/siteinfo/form">Contact Us</a></li>
++            <li><a href="http://www.washington.edu/jobs">Jobs</a></li>
++            <li><a href="http://www.washington.edu/safety">Campus Safety</a></li>
++            <li><a href="http://myuw.washington.edu/">My UW</a></li>
++            <li><a href="http://www.washington.edu/rules/wac">Rules Docket</a></li>
++            <li><a href="http://www.washington.edu/online/privacy/">Privacy</a></li>
++            <li><a href="http://www.washington.edu/online/terms/">Terms</a></li>
++          </ul>
+
+
+*CSS*
+
++      #footer-links ul {
++        list-style-type: none;
++      }
++
++      #footer-links ul li {
++        display: inline;
++      }
