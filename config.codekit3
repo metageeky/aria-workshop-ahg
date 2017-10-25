@@ -15,6 +15,24 @@
 		"oAP": "\/dist\/dist",
 		"oF": 0
 		},
+	"\/readme.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/dist\/readme.html",
+		"oF": 1,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"\/src\/after-all-changes\/after.css": {
 		"aP": 1,
 		"bl": 0,
