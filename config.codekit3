@@ -69,7 +69,7 @@
 		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/dist\/after-all-changes\/index.html",
-		"oF": 0
+		"oF": 1
 		},
 	"\/src\/before-any-changes\/before.css": {
 		"aP": 1,
@@ -95,7 +95,7 @@
 		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/dist\/before-any-changes\/index.html",
-		"oF": 0
+		"oF": 1
 		},
 	"\/src\/common.css": {
 		"aP": 1,
@@ -151,7 +151,7 @@
 		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/dist\/Exercise-2-Landmark-Roles-Labeling\/landmark-after.html",
-		"oF": 0
+		"oF": 1
 		},
 	"\/src\/Exercise-3-Showing-Hiding-Content\/_show-hide-exercise.kit": {
 		"ft": 2048,
@@ -179,7 +179,7 @@
 		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/dist\/Exercise-3-Showing-Hiding-Content\/show-hide-after.html",
-		"oF": 0
+		"oF": 1
 		},
 	"\/src\/Exercise-4-Forms\/_forms-execise.kit": {
 		"ft": 2048,
@@ -207,7 +207,7 @@
 		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/dist\/Exercise-4-Forms\/forms-after.html",
-		"oF": 0
+		"oF": 1
 		},
 	"\/src\/Exercise-5-Modal-Dialogs\/_modal-exercise.kit": {
 		"ft": 2048,
@@ -271,7 +271,7 @@
 	"displayValue": "aria-workshop-ahg",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_green",
-	"lastBuiltDate": 530585873
+	"lastBuiltDate": 530634809
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
