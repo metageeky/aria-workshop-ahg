@@ -2,20 +2,20 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Modal Dialog 1: UW ARIA Bootcamp</title>
+    <title>ARIA Expand/Collapse: ARIA Crash Course</title>
     <link href="../../common.css" rel="stylesheet" type="text/css" />
     <link href="../after/after.css" rel="stylesheet" type="text/css" />
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-    <script src="modal1.js"></script>
+    <script src="expand-collapse.js"></script>
   </head>
   <body>
 
     <div id="content">
 
       <header role="banner" id="banner">
-        <div id="uw-name">University of Washington</div>
-        <h1 id="event-name">ARIA Bootcamp</h1>
-        <div id="event-date">November 4, 2017</div>
+        <div id="uw-name">Accessing Higher Ground</div>
+        <h1 id="event-name">ARIA Crash Course</h1>
+        <div id="event-date">November 13, 2017</div>
       </header>
 
       <nav role="navigation" id="menu" aria-label="Main menu">
@@ -70,16 +70,16 @@
           <p>Please submit the following form upon completion of the workshop.
             All fields are required.</p>
 
-          <div id="error" role="alert"></div>
+          <div id="error"></div>
 
           <div>
             <label for="name" class="label">Your name:</label>
-            <input type="text" id="name" required>
+            <input type="text" id="name">
           </div>
 
           <div>
             <label for="question" class="label">What have you learned today about ARIA?</label>
-            <textarea id="question" aria-describedby="instructions" required></textarea>
+            <textarea id="question"></textarea>
             <div id="instructions">Please include at least three lessons learned.</div>
           </div>
 
@@ -124,9 +124,9 @@
 
     </div><!-- end #content -->
 
-    <div id="modal" role="alertdialog" aria-labelledby="modal-heading">
-      <button type="button" id="close" aria-label="Close dialog">X</button>
-      <h1 id="modal-heading" class="heading">Certificate of Completion</h1>
+    <div id="modal">
+      <button type="button" id="close">X</button>
+      <div class="heading">Certificate of Completion</div>
       <div><span id="participant">You</span> <span id="has-have">have</span>
         completed the ARIA Bootcamp!
       </div>

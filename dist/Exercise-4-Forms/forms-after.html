@@ -2,20 +2,20 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>ARIA Roles and Labels: UW ARIA Bootcamp</title>
+    <title>ARIA in Forms: ARIA Crash Course</title>
     <link href="../../common.css" rel="stylesheet" type="text/css" />
     <link href="../after/after.css" rel="stylesheet" type="text/css" />
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-    <script src="../../before/before.js"></script>
+    <script src="form.js"></script>
   </head>
   <body>
 
     <div id="content">
 
       <header role="banner" id="banner">
-        <div id="uw-name">University of Washington</div>
-        <h1 id="event-name">ARIA Bootcamp</h1>
-        <div id="event-date">November 4, 2017</div>
+        <div id="uw-name">Accessing Higher Ground</div>
+        <h1 id="event-name">ARIA Crash Course</h1>
+        <div id="event-date">November 13, 2017</div>
       </header>
 
       <nav role="navigation" id="menu" aria-label="Main menu">
@@ -31,7 +31,7 @@
         <h2 class="heading">About this Page</h2>
         <p>This page includes a variety of accessibility problems.
           In this workshop we will explore these problems and their solutions.
-          <button type="button" id="text-control">Show more</button>
+          <button type="button" id="text-control" aria-controls="supplemental-text" aria-expanded="false">Show more</button>
         </p>
         <p id="supplemental-text">
           As an example, this text is initially "hidden" from the user,
@@ -70,16 +70,16 @@
           <p>Please submit the following form upon completion of the workshop.
             All fields are required.</p>
 
-          <div id="error"></div>
+          <div id="error" role="alert"></div>
 
           <div>
             <label for="name" class="label">Your name:</label>
-            <input type="text" id="name">
+            <input type="text" id="name" required>
           </div>
 
           <div>
             <label for="question" class="label">What have you learned today about ARIA?</label>
-            <textarea id="question"></textarea>
+            <textarea id="question" aria-describedby="instructions" required></textarea>
             <div id="instructions">Please include at least three lessons learned.</div>
           </div>
 

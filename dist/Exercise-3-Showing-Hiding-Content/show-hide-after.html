@@ -2,38 +2,36 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Before: UW ARIA Bootcamp</title>
-    <link href="../common.css" rel="stylesheet" type="text/css" />
-    <link href="before.css" rel="stylesheet" type="text/css" />
+    <title>ARIA Expand/Collapse: ARIA Crash Course</title>
+    <link href="../../common.css" rel="stylesheet" type="text/css" />
+    <link href="../after/after.css" rel="stylesheet" type="text/css" />
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-    <script src="before.js"></script>
+    <script src="expand-collapse.js"></script>
   </head>
   <body>
 
     <div id="content">
 
-      <div id="banner">
-        <div id="uw-name">University of Washington</div>
-        <div id="event-name">ARIA Bootcamp</div>
-        <div id="event-date">November 4, 2017</div>
-      </div>
+      <header role="banner" id="banner">
+        <div id="uw-name">Accessing Higher Ground</div>
+        <h1 id="event-name">ARIA Crash Course</h1>
+        <div id="event-date">November 13, 2017</div>
+      </header>
 
-      <div id="menu-wrapper">
-        <div id="menu">
+      <nav role="navigation" id="menu" aria-label="Main menu">
           <ul>
             <li><a href="#">Menu Item 1</a></li>
             <li><a href="#">Menu Item 2</a></li>
             <li class="last"><a href="#">Menu Item 3</a></li>
           </ul>
-        </div>
-      </div>
+      </nav>
 
-      <div id="main">
+      <main role="main" id="main">
 
-        <div class="heading">About this Page</div>
+        <h2 class="heading">About this Page</h2>
         <p>This page includes a variety of accessibility problems.
           In this workshop we will explore these problems and their solutions.
-          <span id="text-control">Show more</span>
+          <button type="button" id="text-control" aria-controls="supplemental-text" aria-expanded="false">Show more</button>
         </p>
         <p id="supplemental-text">
           As an example, this text is initially "hidden" from the user,
@@ -43,7 +41,7 @@
           and use the control with ease and understanding?
         </p>
 
-        <div class="heading">Accessible Web Design</div>
+        <h2 class="heading">Accessible Web Design</h2>
         <p>Accessible web design is the practice of designing and developing websites that
           are usable by everyone, including individuals with disabilities.
           The World Wide Web Consortium (W3C) has developed
@@ -52,7 +50,7 @@
           and web applications.
         </p>
 
-        <div class="heading">ARIA</div>
+        <h2 class="heading">ARIA</h2>
         <p>Accessible Rich Internet Applications (ARIA) is a W3C specification that
           is designed to make interactive web interfaces accessible.
           It does so by explicitly communicating the roles, states, and properties of
@@ -65,7 +63,7 @@
           <li>What is its current state? For example, is it selected? expanded? visible?</li>
         </ul>
 
-        <div class="heading">Post-Workshop Questionnaire</div>
+        <h2 class="heading">Post-Workshop Questionnaire</h2>
 
         <form action="#" method="post">
 
@@ -75,12 +73,12 @@
           <div id="error"></div>
 
           <div>
-            <div class="label">Your name:</div>
+            <label for="name" class="label">Your name:</label>
             <input type="text" id="name">
           </div>
 
           <div>
-            <div class="label">What have you learned today about ARIA?</div>
+            <label for="question" class="label">What have you learned today about ARIA?</label>
             <textarea id="question"></textarea>
             <div id="instructions">Please include at least three lessons learned.</div>
           </div>
@@ -91,10 +89,10 @@
 
         </form>
 
-      </div>
+      </main>
 
-      <div id="sidebar">
-        <div class="heading">Resources</div>
+      <aside role="complementary" id="sidebar">
+        <h2 class="heading">Resources</h2>
         <ul>
           <li><a href="http://washington.edu/accessibility">UW Accessible Technology</a></li>
           <li><a href="http://washington.edu/accessibility">UW IT Accessibility Guidelines</a></li>
@@ -102,25 +100,27 @@
           <li><a href="http://www.washington.edu/accessibility/web/">Developing Accessible Websites</a></li>
           <li><a href="http://www.washington.edu/accessibility/web/aria/">Using ARIA for Web Applications</a></li>
         </ul>
-      </div>
+      </aside>
 
-      <div id="footer">
-        <div id="footer-links">
-          <a href="http://uw.edu/home/siteinfo/form">Contact Us</a>
-          <a href="http://www.washington.edu/jobs">Jobs</a>
-          <a href="http://www.washington.edu/safety">Campus Safety</a>
-          <a href="http://myuw.washington.edu/">My UW</a>
-          <a href="http://www.washington.edu/rules/wac">Rules Docket</a>
-          <a href="http://www.washington.edu/online/privacy/">Privacy</a>
-          <a href="http://www.washington.edu/online/terms/">Terms</a>
-        </div>
-        <div id="copyright">
+      <footer id="footer">
+        <nav role="navigation" aria-label="UW links">
+          <ul>
+            <li><a href="http://uw.edu/home/siteinfo/form">Contact Us</a></li>
+            <li><a href="http://www.washington.edu/jobs">Jobs</a></li>
+            <li><a href="http://www.washington.edu/safety">Campus Safety</a></li>
+            <li><a href="http://myuw.washington.edu/">My UW</a></li>
+            <li><a href="http://www.washington.edu/rules/wac">Rules Docket</a></li>
+            <li><a href="http://www.washington.edu/online/privacy/">Privacy</a></li>
+            <li><a href="http://www.washington.edu/online/terms/">Terms</a></li>
+          </ul>
+        </nav>
+        <div id="copyright" role="contentinfo">
           &copy; 2016 University of Washington. These materials are provided under a
           <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons License</a>
           and in accordance with UW's <a href="http://www.washington.edu/online/privacy/">privacy policy</a>
           and <a href="http://www.washington.edu/online/terms">terms of use</a>.
         </div>
-      </div>
+      </footer>
 
     </div><!-- end #content -->
 
