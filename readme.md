@@ -10,10 +10,5 @@ Welcome! This repository contains all the files you'll need for the *Increasing 
 ## Exercise Files
 The exercises you'll be doing in the workshop will require files found in the **"dist"** directory, but don't worry about the details (we'll cover that in the workshop). For now, just make sure you have the files on the computer you'll be bringing to the workshop.
 
-## Examples In The Browser
-* [A web page with accessibility problems](dist/before-any-changes)
-* [Semantic HTML added](dist/Exercise-1-Semantic-HTML/semantics-after.html)
-* [ARIA landmarks and roles Added](dist/Exercise-2-Landmark-Roles-Labeling/landmark-after.html)
-* [ARIA added to expand/collapse region](dist/Exercise-3-Showing-Hiding-Content/show-hide-after.html)
-* [ARIA added to a form](dist/Exercise-4-Forms/forms-after.html)
-* [An accessible web page with modal dialog](dist/after-all-changes)
+## Improving a page's accessibility one step at a time 
+Check out the [example web page](dist/before-any-changes) we'll be working on throughout this workshop as its overall accessibility evolves.
