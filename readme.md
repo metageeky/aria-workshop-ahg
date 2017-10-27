@@ -3,7 +3,7 @@
 Welcome! This repository contains all the workshop files you'll need for our session. But, you will need to get them from GitHub on to the computer you'll be bringing along. How do you do that? Read on. 
 
 ## Downloading the workshop files to your computer
-1. Click the green "Clone or Download" button (above this section, to the right).
+1. Click the green "Clone or download" button (above this section, to the right).
 2. Select the "Download ZIP" option, and designate a local destination for the zipped archive.
 3. On your local computer, navigate to the recently downloaded zip folder, and unzip it.
 
