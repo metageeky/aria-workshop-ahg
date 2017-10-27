@@ -11,4 +11,4 @@ Welcome! This repository contains all the files you'll need for the *Increasing 
 The exercises you'll be doing in the workshop will require files found in the **"dist"** directory, but don't worry about the details (we'll cover that in the workshop). For now, just make sure you have the files on the computer you'll be bringing to the workshop.
 
 ## Improving a page's accessibility one step at a time 
-Check out the [example web page](dist/before-any-changes) we'll be working on throughout this workshop as its overall accessibility evolves.
+Check out the [example web page](dist/before-any-changes/index.html) we'll be working on throughout this workshop as its overall accessibility evolves.
