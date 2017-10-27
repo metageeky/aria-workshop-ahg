@@ -5,7 +5,7 @@ Welcome! This repository contains all the workshop files you'll need for our ses
 ## Downloading the workshop files to your computer
 1. Click the green "Clone or download" button (above this section, to the right).
 2. Select the "Download ZIP" option, and designate a local destination for the zipped archive.
-3. On your local computer, navigate to the recently downloaded zip folder, and unzip it.
+3. On your local computer, navigate to the recently downloaded zipped archive, and unzip it.
 
 ## Exercise Files
 The exercises you'll be doing in the workshop will require files found in the **"dist"** directory, but don't worry about the details (we'll cover that in the workshop). For now, just make sure you have successfully downloaded the repository to the computer you'll be bringing to the workshop (by following the instructions in the preceding section).
