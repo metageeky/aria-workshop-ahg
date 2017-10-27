@@ -11,4 +11,11 @@ Welcome! This repository contains all the files you'll need for the *Increasing 
 The exercises you'll be doing in the workshop will require files found in the **"dist"** directory, but don't worry about the details (we'll cover that in the workshop). For now, just make sure you have the files on the computer you'll be bringing to the workshop.
 
 ## Improving a page's accessibility one step at a time 
-Check out the [example web page](dist/before-any-changes/index.html) we'll be working on throughout this workshop as its overall accessibility evolves.
+Throughout the session, you'll be working on a web page to improve its overall accessibility. You can see the page in various states of improvement here. 
+* <a href="dist/before-any-changes/">Before: a web page with accessibility problems</a>
+* <a href="dist/Exercise-1-Semantic-HTML/semantics-after.html">Adding semantic HTML</a>
+* <a href="dist/Exercise-2-Landmark-Roles-Labeling/landmark-after.html">Adding ARIA roles and labels</a>
+* <a href="dist/Exercise-3-Showing-Hiding-Content/show-hide-after.html">Improving the expand/collapse region</a>
+* <a href="dist/Exercise-4-Forms/forms-after.html">Improving the form</a>
+* <a href="dist/Exercise-5-Modal-Dialogs/modal-1-after.html">Improving the modal dialog</a>
+* <a href="dist/after-all-changes/">After: an accessible web page!</a>
