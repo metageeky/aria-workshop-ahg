@@ -9,6 +9,12 @@
 	],
 "creatorBuild": "25900",
 "files": {
+	"\/exercises": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/exercises\/exercises",
+		"oF": 0
+		},
 	"\/readme.md": {
 		"cS": 0,
 		"eF": 1,
@@ -18,7 +24,7 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"oA": 1,
-		"oAP": "\/dist\/readme.html",
+		"oAP": "\/exercises\/readme.html",
 		"oF": 1,
 		"oFM": 0,
 		"oS": 0,
@@ -32,7 +38,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/dist\/after-all-changes\/after.js",
+		"oAP": "\/exercises\/after-all-changes\/after.js",
 		"oF": 1,
 		"sC": 1,
 		"tS": 0
@@ -40,7 +46,7 @@
 	"\/src\/after-all-changes\/index.kit": {
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/dist\/after-all-changes\/index.html",
+		"oAP": "\/exercises\/after-all-changes\/index.html",
 		"oF": 1
 		},
 	"\/src\/before-any-changes\/before.js": {
@@ -48,7 +54,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/dist\/before-any-changes\/before.js",
+		"oAP": "\/exercises\/before-any-changes\/before.js",
 		"oF": 1,
 		"sC": 1,
 		"tS": 0
@@ -56,7 +62,7 @@
 	"\/src\/before-any-changes\/index.kit": {
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/dist\/before-any-changes\/index.html",
+		"oAP": "\/exercises\/before-any-changes\/index.html",
 		"oF": 1
 		},
 	"\/src\/common.css": {
@@ -65,62 +71,62 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/dist\/common.css",
+		"oAP": "\/exercises\/common.css",
 		"oF": 1,
 		"oS": 3
 		},
 	"\/src\/Exercise-1-Semantic-HTML\/_semantics.kit": {
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/dist\/Exercise-1-Semantic-HTML\/_semantics.html",
+		"oAP": "\/exercises\/Exercise-1-Semantic-HTML\/_semantics.html",
 		"oF": 1
 		},
 	"\/src\/Exercise-1-Semantic-HTML\/diff.txt": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/dist\/Exercise-1-Semantic-HTML\/diff.txt",
+		"oAP": "\/exercises\/Exercise-1-Semantic-HTML\/diff.txt",
 		"oF": 1
 		},
 	"\/src\/Exercise-1-Semantic-HTML\/semantics-solution.kit": {
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/dist\/Exercise-1-Semantic-HTML\/semantics-solution.html",
+		"oAP": "\/exercises\/Exercise-1-Semantic-HTML\/semantics-solution.html",
 		"oF": 1
 		},
 	"\/src\/Exercise-2-Landmark-Roles-Labeling\/_landmark.kit": {
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/dist\/Exercise-2-Landmark-Roles-Labeling\/_landmark.html",
+		"oAP": "\/exercises\/Exercise-2-Landmark-Roles-Labeling\/_landmark.html",
 		"oF": 1
 		},
 	"\/src\/Exercise-2-Landmark-Roles-Labeling\/diff.txt": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/dist\/Exercise-2-Landmark-Roles-Labeling\/diff.txt",
+		"oAP": "\/exercises\/Exercise-2-Landmark-Roles-Labeling\/diff.txt",
 		"oF": 1
 		},
 	"\/src\/Exercise-2-Landmark-Roles-Labeling\/landmark-solution.kit": {
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/dist\/Exercise-2-Landmark-Roles-Labeling\/landmark-solution.html",
+		"oAP": "\/exercises\/Exercise-2-Landmark-Roles-Labeling\/landmark-solution.html",
 		"oF": 1
 		},
 	"\/src\/Exercise-3-Showing-Hiding-Content\/_show-hide.kit": {
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/dist\/Exercise-3-Showing-Hiding-Content\/_show-hide.html",
+		"oAP": "\/exercises\/Exercise-3-Showing-Hiding-Content\/_show-hide.html",
 		"oF": 1
 		},
 	"\/src\/Exercise-3-Showing-Hiding-Content\/diff.txt": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/dist\/Exercise-3-Showing-Hiding-Content\/diff.txt",
+		"oAP": "\/exercises\/Exercise-3-Showing-Hiding-Content\/diff.txt",
 		"oF": 1
 		},
 	"\/src\/Exercise-3-Showing-Hiding-Content\/show-hide-solution.kit": {
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/dist\/Exercise-3-Showing-Hiding-Content\/show-hide-solution.html",
+		"oAP": "\/exercises\/Exercise-3-Showing-Hiding-Content\/show-hide-solution.html",
 		"oF": 1
 		},
 	"\/src\/Exercise-3-Showing-Hiding-Content\/show-hide.js": {
@@ -128,7 +134,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/dist\/Exercise-3-Showing-Hiding-Content\/show-hide.js",
+		"oAP": "\/exercises\/Exercise-3-Showing-Hiding-Content\/show-hide.js",
 		"oF": 1,
 		"sC": 1,
 		"tS": 0
@@ -136,13 +142,13 @@
 	"\/src\/Exercise-4-Forms\/_forms.kit": {
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/dist\/Exercise-4-Forms\/_forms.html",
+		"oAP": "\/exercises\/Exercise-4-Forms\/_forms.html",
 		"oF": 1
 		},
 	"\/src\/Exercise-4-Forms\/diff.txt": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/dist\/Exercise-4-Forms\/diff.txt",
+		"oAP": "\/exercises\/Exercise-4-Forms\/diff.txt",
 		"oF": 1
 		},
 	"\/src\/Exercise-4-Forms\/form.js": {
@@ -150,7 +156,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/dist\/Exercise-4-Forms\/form.js",
+		"oAP": "\/exercises\/Exercise-4-Forms\/form.js",
 		"oF": 1,
 		"sC": 1,
 		"tS": 0
@@ -158,31 +164,31 @@
 	"\/src\/Exercise-4-Forms\/forms-solution.kit": {
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/dist\/Exercise-4-Forms\/forms-solution.html",
+		"oAP": "\/exercises\/Exercise-4-Forms\/forms-solution.html",
 		"oF": 1
 		},
 	"\/src\/Exercise-5-Modal-Dialogs\/_modal.kit": {
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/dist\/Exercise-5-Modal-Dialogs\/_modal.html",
+		"oAP": "\/exercises\/Exercise-5-Modal-Dialogs\/_modal.html",
 		"oF": 1
 		},
 	"\/src\/Exercise-5-Modal-Dialogs\/diff.txt": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/dist\/Exercise-5-Modal-Dialogs\/diff.txt",
+		"oAP": "\/exercises\/Exercise-5-Modal-Dialogs\/diff.txt",
 		"oF": 1
 		},
 	"\/src\/Exercise-5-Modal-Dialogs\/modal-1-solution.kit": {
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/dist\/Exercise-5-Modal-Dialogs\/modal-1-solution.html",
+		"oAP": "\/exercises\/Exercise-5-Modal-Dialogs\/modal-1-solution.html",
 		"oF": 0
 		},
 	"\/src\/Exercise-5-Modal-Dialogs\/modal-2-solution.kit": {
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/dist\/Exercise-5-Modal-Dialogs\/modal-2-solution.html",
+		"oAP": "\/exercises\/Exercise-5-Modal-Dialogs\/modal-2-solution.html",
 		"oF": 0
 		},
 	"\/src\/Exercise-5-Modal-Dialogs\/modal1.js": {
@@ -190,7 +196,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/dist\/Exercise-5-Modal-Dialogs\/modal1.js",
+		"oAP": "\/exercises\/Exercise-5-Modal-Dialogs\/modal1.js",
 		"oF": 1,
 		"sC": 1,
 		"tS": 0
@@ -205,7 +211,7 @@
 	"displayValue": "aria-workshop-ahg",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_green",
-	"lastBuiltDate": 531025428
+	"lastBuiltDate": 531093318
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -461,7 +467,7 @@
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
 	"buildFolderActive": 1,
-	"buildFolderName": "dist",
+	"buildFolderName": "exercises",
 	"cleanBuild": 1,
 	"coffeeLintFlags2": {
 		"arrow_spacing": {
@@ -2346,7 +2352,7 @@
 			}
 		},
 	"uglifyReservedNamesString": "$",
-	"websiteRelativeRoot": "\/dist"
+	"websiteRelativeRoot": "\/exercises"
 	},
 "settingsFileVersion": "3"
 }
