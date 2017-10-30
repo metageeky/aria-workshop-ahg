@@ -34,6 +34,35 @@
         clear: left;
       }
 
+      /* Before */
+     #footer-links {
+        margin-bottom: 1em;
+      }
+      #footer-links a {
+        padding: 0 0.5em;
+      }
+
+
+      /* Footer After */
+
+      footer ul, #footer-links ul {
+        list-style-type:none
+      }
+      footer ul li, #footer-links ul li{
+        display:inline-block
+      }
+      footer, #footer-links {
+        margin-bottom: 1em;
+      }
+      footer a, #footer-links a {
+        padding: 0 0.5em;
+      }
+
+      /* No need for dotted border on buttons in Firefox */
+      button::-moz-focus-inner {
+        border: 0;
+      }
+
       /* Banner */
       #uw-name {
         font-weight: bold;

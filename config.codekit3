@@ -9,24 +9,6 @@
 	],
 "creatorBuild": "25900",
 "files": {
-	"\/dist": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "\/dist\/dist",
-		"oF": 0
-		},
-	"\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/dist\/index.html",
-		"oF": 0
-		},
-	"\/index.kit": {
-		"ft": 2048,
-		"oA": 0,
-		"oAP": "\/index.html",
-		"oF": 2
-		},
 	"\/readme.md": {
 		"cS": 0,
 		"eF": 1,
@@ -45,16 +27,6 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/src\/after-all-changes\/after.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/dist\/after-all-changes\/after.css",
-		"oF": 1,
-		"oS": 3
-		},
 	"\/src\/after-all-changes\/after.js": {
 		"ft": 64,
 		"ma": 0,
@@ -70,16 +42,6 @@
 		"oA": 0,
 		"oAP": "\/dist\/after-all-changes\/index.html",
 		"oF": 1
-		},
-	"\/src\/before-any-changes\/before.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/dist\/before-any-changes\/before.css",
-		"oF": 1,
-		"oS": 3
 		},
 	"\/src\/before-any-changes\/before.js": {
 		"ft": 64,
@@ -107,89 +69,79 @@
 		"oF": 1,
 		"oS": 3
 		},
-	"\/src\/Exercise-1-Semantic-HTML\/_semantics-exercise.kit": {
+	"\/src\/Exercise-1-Semantic-HTML\/_semantics.kit": {
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/dist\/Exercise-1-Semantic-HTML\/_semantics-exercise.html",
+		"oAP": "\/dist\/Exercise-1-Semantic-HTML\/_semantics.html",
 		"oF": 1
 		},
 	"\/src\/Exercise-1-Semantic-HTML\/diff.txt": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/dist\/Exercise-1-Semantic-HTML\/diff.txt",
 		"oF": 1
 		},
-	"\/src\/Exercise-1-Semantic-HTML\/semantics-after.kit": {
+	"\/src\/Exercise-1-Semantic-HTML\/semantics-solution.kit": {
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/dist\/Exercise-1-Semantic-HTML\/semantics-after.html",
+		"oAP": "\/dist\/Exercise-1-Semantic-HTML\/semantics-solution.html",
 		"oF": 1
 		},
-	"\/src\/Exercise-1-Semantic-HTML\/semantics.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/dist\/Exercise-1-Semantic-HTML\/semantics.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/src\/Exercise-2-Landmark-Roles-Labeling\/_landmark-exercise.kit": {
+	"\/src\/Exercise-2-Landmark-Roles-Labeling\/_landmark.kit": {
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/dist\/Exercise-2-Landmark-Roles-Labeling\/_landmark-exercise.html",
+		"oAP": "\/dist\/Exercise-2-Landmark-Roles-Labeling\/_landmark.html",
 		"oF": 1
 		},
 	"\/src\/Exercise-2-Landmark-Roles-Labeling\/diff.txt": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/dist\/Exercise-2-Landmark-Roles-Labeling\/diff.txt",
 		"oF": 1
 		},
-	"\/src\/Exercise-2-Landmark-Roles-Labeling\/landmark-after.kit": {
+	"\/src\/Exercise-2-Landmark-Roles-Labeling\/landmark-solution.kit": {
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/dist\/Exercise-2-Landmark-Roles-Labeling\/landmark-after.html",
+		"oAP": "\/dist\/Exercise-2-Landmark-Roles-Labeling\/landmark-solution.html",
 		"oF": 1
 		},
-	"\/src\/Exercise-3-Showing-Hiding-Content\/_show-hide-exercise.kit": {
+	"\/src\/Exercise-3-Showing-Hiding-Content\/_show-hide.kit": {
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/dist\/Exercise-3-Showing-Hiding-Content\/_show-hide-exercise.html",
+		"oAP": "\/dist\/Exercise-3-Showing-Hiding-Content\/_show-hide.html",
 		"oF": 1
 		},
 	"\/src\/Exercise-3-Showing-Hiding-Content\/diff.txt": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/dist\/Exercise-3-Showing-Hiding-Content\/diff.txt",
 		"oF": 1
 		},
-	"\/src\/Exercise-3-Showing-Hiding-Content\/expand-collapse.js": {
+	"\/src\/Exercise-3-Showing-Hiding-Content\/show-hide-solution.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/dist\/Exercise-3-Showing-Hiding-Content\/show-hide-solution.html",
+		"oF": 1
+		},
+	"\/src\/Exercise-3-Showing-Hiding-Content\/show-hide.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/dist\/Exercise-3-Showing-Hiding-Content\/expand-collapse.js",
+		"oAP": "\/dist\/Exercise-3-Showing-Hiding-Content\/show-hide.js",
 		"oF": 1,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/src\/Exercise-3-Showing-Hiding-Content\/show-hide-after.kit": {
+	"\/src\/Exercise-4-Forms\/_forms.kit": {
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/dist\/Exercise-3-Showing-Hiding-Content\/show-hide-after.html",
-		"oF": 1
-		},
-	"\/src\/Exercise-4-Forms\/_forms-execise.kit": {
-		"ft": 2048,
-		"oA": 0,
-		"oAP": "\/dist\/Exercise-4-Forms\/_forms-execise.html",
+		"oAP": "\/dist\/Exercise-4-Forms\/_forms.html",
 		"oF": 1
 		},
 	"\/src\/Exercise-4-Forms\/diff.txt": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/dist\/Exercise-4-Forms\/diff.txt",
 		"oF": 1
 		},
@@ -203,34 +155,34 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/src\/Exercise-4-Forms\/forms-after.kit": {
+	"\/src\/Exercise-4-Forms\/forms-solution.kit": {
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/dist\/Exercise-4-Forms\/forms-after.html",
+		"oAP": "\/dist\/Exercise-4-Forms\/forms-solution.html",
 		"oF": 1
 		},
-	"\/src\/Exercise-5-Modal-Dialogs\/_modal-exercise.kit": {
+	"\/src\/Exercise-5-Modal-Dialogs\/_modal.kit": {
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/dist\/Exercise-5-Modal-Dialogs\/_modal-exercise.html",
+		"oAP": "\/dist\/Exercise-5-Modal-Dialogs\/_modal.html",
 		"oF": 1
 		},
 	"\/src\/Exercise-5-Modal-Dialogs\/diff.txt": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/dist\/Exercise-5-Modal-Dialogs\/diff.txt",
 		"oF": 1
 		},
-	"\/src\/Exercise-5-Modal-Dialogs\/modal-1-after.kit": {
+	"\/src\/Exercise-5-Modal-Dialogs\/modal-1-solution.kit": {
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/dist\/Exercise-5-Modal-Dialogs\/modal-1-after.html",
+		"oAP": "\/dist\/Exercise-5-Modal-Dialogs\/modal-1-solution.html",
 		"oF": 0
 		},
-	"\/src\/Exercise-5-Modal-Dialogs\/modal-2-after.kit": {
+	"\/src\/Exercise-5-Modal-Dialogs\/modal-2-solution.kit": {
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/dist\/Exercise-5-Modal-Dialogs\/modal-2-after.html",
+		"oAP": "\/dist\/Exercise-5-Modal-Dialogs\/modal-2-solution.html",
 		"oF": 0
 		},
 	"\/src\/Exercise-5-Modal-Dialogs\/modal1.js": {
@@ -242,24 +194,6 @@
 		"oF": 1,
 		"sC": 1,
 		"tS": 0
-		},
-	"\/src\/readme.md": {
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 2,
-		"oAP": "\/dist\/readme.md",
-		"oF": 3,
-		"oFM": 9,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
 		}
 	},
 "hooks": [
@@ -271,7 +205,7 @@
 	"displayValue": "aria-workshop-ahg",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_green",
-	"lastBuiltDate": 530634809
+	"lastBuiltDate": 531025428
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

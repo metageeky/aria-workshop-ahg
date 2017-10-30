@@ -2,9 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>ARIA Roles and Labels: ARIA Crash Course</title>
+    <title>HTML Semantics: ARIA Crash Course</title>
     <link href="../common.css" rel="stylesheet" type="text/css" />
-    <link href="../after/after.css" rel="stylesheet" type="text/css" />
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <script src="../before/before.js"></script>
   </head>
@@ -12,21 +11,23 @@
 
     <div id="content">
 
-      <header role="banner" id="banner">
+      <div id="banner">
         <div id="uw-name">Accessing Higher Ground</div>
         <h1 id="event-name">ARIA Crash Course</h1>
         <div id="event-date">November 13, 2017</div>
-      </header>
+      </div>
 
-      <nav role="navigation" id="menu" aria-label="Main menu">
+      <div id="menu-wrapper">
+        <div id="menu">
           <ul>
             <li><a href="#">Menu Item 1</a></li>
             <li><a href="#">Menu Item 2</a></li>
             <li class="last"><a href="#">Menu Item 3</a></li>
           </ul>
-      </nav>
+        </div>
+      </div>
 
-      <main role="main" id="main">
+      <div id="main">
 
         <h2 class="heading">About this Page</h2>
         <p>This page includes a variety of accessibility problems.
@@ -89,9 +90,9 @@
 
         </form>
 
-      </main>
+      </div>
 
-      <aside role="complementary" id="sidebar">
+      <div id="sidebar">
         <h2 class="heading">Resources</h2>
         <ul>
           <li><a href="http://washington.edu/accessibility">UW Accessible Technology</a></li>
@@ -100,10 +101,10 @@
           <li><a href="http://www.washington.edu/accessibility/web/">Developing Accessible Websites</a></li>
           <li><a href="http://www.washington.edu/accessibility/web/aria/">Using ARIA for Web Applications</a></li>
         </ul>
-      </aside>
+      </div>
 
-      <footer id="footer">
-        <nav role="navigation" aria-label="UW links">
+      <div id="footer">
+        <div id="footer-links">
           <ul>
             <li><a href="http://uw.edu/home/siteinfo/form">Contact Us</a></li>
             <li><a href="http://www.washington.edu/jobs">Jobs</a></li>
@@ -113,14 +114,14 @@
             <li><a href="http://www.washington.edu/online/privacy/">Privacy</a></li>
             <li><a href="http://www.washington.edu/online/terms/">Terms</a></li>
           </ul>
-        </nav>
-        <div id="copyright" role="contentinfo">
-          &copy; 2016 University of Washington. These materials are provided under a
+        </div>
+        <div id="copyright">
+          &copy; 2017 University of Washington. These materials are provided under a
           <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons License</a>
           and in accordance with UW's <a href="http://www.washington.edu/online/privacy/">privacy policy</a>
           and <a href="http://www.washington.edu/online/terms">terms of use</a>.
         </div>
-      </footer>
+      </div>
 
     </div><!-- end #content -->
 

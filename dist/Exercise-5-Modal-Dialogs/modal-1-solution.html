@@ -2,13 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>After: ARIA Crash Course</title>
+    <title>Modal Dialog 1: ARIA Crash Course</title>
     <link href="../common.css" rel="stylesheet" type="text/css" />
-    <link href="after.css" rel="stylesheet" type="text/css" />
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-    <script src="after.js"></script>
+    <script src="modal1.js"></script>
   </head>
-
   <body>
 
     <div id="content">
@@ -30,17 +28,17 @@
       <main role="main" id="main">
 
         <h2 class="heading">About this Page</h2>
-          <p>This page includes a variety of accessibility problems.
-            In this workshop we will explore these problems and their solutions.
-            <button type="button" id="text-control" aria-controls="supplemental-text" aria-expanded="false">Show more</button>
-          </p>
-          <p id="supplemental-text">
-            As an example, this text is initially "hidden" from the user,
-             with its visibility toggled by a simple button control.
-             But how does this appear to a screen reader?
-             Is a non-sighted user able to navigate this content
-             and use the control with ease and understanding?
-          </p>
+        <p>This page includes a variety of accessibility problems.
+          In this workshop we will explore these problems and their solutions.
+          <button type="button" id="text-control" aria-controls="supplemental-text" aria-expanded="false">Show more</button>
+        </p>
+        <p id="supplemental-text">
+          As an example, this text is initially "hidden" from the user,
+          with its visibility toggled by a simple button control.
+          But how does this appear to a screen reader?
+          Is a non-sighted user able to navigate this content
+          and use the control with ease and understanding?
+        </p>
 
         <h2 class="heading">Accessible Web Design</h2>
         <p>Accessible web design is the practice of designing and developing websites that
@@ -116,7 +114,7 @@
           </ul>
         </nav>
         <div id="copyright" role="contentinfo">
-          &copy; 2016 University of Washington. These materials are provided under a
+          &copy; 2017 University of Washington. These materials are provided under a
           <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons License</a>
           and in accordance with UW's <a href="http://www.washington.edu/online/privacy/">privacy policy</a>
           and <a href="http://www.washington.edu/online/terms">terms of use</a>.

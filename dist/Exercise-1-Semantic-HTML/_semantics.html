@@ -2,36 +2,37 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Modal Dialog 1: ARIA Crash Course</title>
+    <title>Before: ARIA Crash Course</title>
     <link href="../common.css" rel="stylesheet" type="text/css" />
-    <link href="../after/after.css" rel="stylesheet" type="text/css" />
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-    <script src="modal1.js"></script>
+    <script src="before.js"></script>
   </head>
   <body>
 
     <div id="content">
 
-      <header role="banner" id="banner">
+      <div id="banner">
         <div id="uw-name">Accessing Higher Ground</div>
-        <h1 id="event-name">ARIA Crash Course</h1>
+        <div id="event-name">ARIA Crash Course</div>
         <div id="event-date">November 13, 2017</div>
-      </header>
+      </div>
 
-      <nav role="navigation" id="menu" aria-label="Main menu">
+      <div id="menu-wrapper">
+        <div id="menu">
           <ul>
             <li><a href="#">Menu Item 1</a></li>
             <li><a href="#">Menu Item 2</a></li>
             <li class="last"><a href="#">Menu Item 3</a></li>
           </ul>
-      </nav>
+        </div>
+      </div>
 
-      <main role="main" id="main">
+      <div id="main">
 
-        <h2 class="heading">About this Page</h2>
+        <div class="heading">About this Page</div>
         <p>This page includes a variety of accessibility problems.
           In this workshop we will explore these problems and their solutions.
-          <button type="button" id="text-control" aria-controls="supplemental-text" aria-expanded="false">Show more</button>
+          <span id="text-control">Show more</span>
         </p>
         <p id="supplemental-text">
           As an example, this text is initially "hidden" from the user,
@@ -41,7 +42,7 @@
           and use the control with ease and understanding?
         </p>
 
-        <h2 class="heading">Accessible Web Design</h2>
+        <div class="heading">Accessible Web Design</div>
         <p>Accessible web design is the practice of designing and developing websites that
           are usable by everyone, including individuals with disabilities.
           The World Wide Web Consortium (W3C) has developed
@@ -50,7 +51,7 @@
           and web applications.
         </p>
 
-        <h2 class="heading">ARIA</h2>
+        <div class="heading">ARIA</div>
         <p>Accessible Rich Internet Applications (ARIA) is a W3C specification that
           is designed to make interactive web interfaces accessible.
           It does so by explicitly communicating the roles, states, and properties of
@@ -63,23 +64,23 @@
           <li>What is its current state? For example, is it selected? expanded? visible?</li>
         </ul>
 
-        <h2 class="heading">Post-Workshop Questionnaire</h2>
+        <div class="heading">Post-Workshop Questionnaire</div>
 
         <form action="#" method="post">
 
           <p>Please submit the following form upon completion of the workshop.
             All fields are required.</p>
 
-          <div id="error" role="alert"></div>
+          <div id="error"></div>
 
           <div>
-            <label for="name" class="label">Your name:</label>
-            <input type="text" id="name" required>
+            <div class="label">Your name:</div>
+            <input type="text" id="name">
           </div>
 
           <div>
-            <label for="question" class="label">What have you learned today about ARIA?</label>
-            <textarea id="question" aria-describedby="instructions" required></textarea>
+            <div class="label">What have you learned today about ARIA?</div>
+            <textarea id="question"></textarea>
             <div id="instructions">Please include at least three lessons learned.</div>
           </div>
 
@@ -89,10 +90,10 @@
 
         </form>
 
-      </main>
+      </div>
 
-      <aside role="complementary" id="sidebar">
-        <h2 class="heading">Resources</h2>
+      <div id="sidebar">
+        <div class="heading">Resources</div>
         <ul>
           <li><a href="http://washington.edu/accessibility">UW Accessible Technology</a></li>
           <li><a href="http://washington.edu/accessibility">UW IT Accessibility Guidelines</a></li>
@@ -100,33 +101,31 @@
           <li><a href="http://www.washington.edu/accessibility/web/">Developing Accessible Websites</a></li>
           <li><a href="http://www.washington.edu/accessibility/web/aria/">Using ARIA for Web Applications</a></li>
         </ul>
-      </aside>
+      </div>
 
-      <footer id="footer">
-        <nav role="navigation" aria-label="UW links">
-          <ul>
-            <li><a href="http://uw.edu/home/siteinfo/form">Contact Us</a></li>
-            <li><a href="http://www.washington.edu/jobs">Jobs</a></li>
-            <li><a href="http://www.washington.edu/safety">Campus Safety</a></li>
-            <li><a href="http://myuw.washington.edu/">My UW</a></li>
-            <li><a href="http://www.washington.edu/rules/wac">Rules Docket</a></li>
-            <li><a href="http://www.washington.edu/online/privacy/">Privacy</a></li>
-            <li><a href="http://www.washington.edu/online/terms/">Terms</a></li>
-          </ul>
-        </nav>
-        <div id="copyright" role="contentinfo">
-          &copy; 2016 University of Washington. These materials are provided under a
+      <div id="footer">
+        <div id="footer-links">
+          <a href="http://uw.edu/home/siteinfo/form">Contact Us</a>
+          <a href="http://www.washington.edu/jobs">Jobs</a>
+          <a href="http://www.washington.edu/safety">Campus Safety</a>
+          <a href="http://myuw.washington.edu/">My UW</a>
+          <a href="http://www.washington.edu/rules/wac">Rules Docket</a>
+          <a href="http://www.washington.edu/online/privacy/">Privacy</a>
+          <a href="http://www.washington.edu/online/terms/">Terms</a>
+        </div>
+        <div id="copyright">
+          &copy; 2017 University of Washington. These materials are provided under a
           <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons License</a>
           and in accordance with UW's <a href="http://www.washington.edu/online/privacy/">privacy policy</a>
           and <a href="http://www.washington.edu/online/terms">terms of use</a>.
         </div>
-      </footer>
+      </div>
 
     </div><!-- end #content -->
 
-    <div id="modal" role="alertdialog" aria-labelledby="modal-heading">
-      <button type="button" id="close" aria-label="Close dialog">X</button>
-      <h1 id="modal-heading" class="heading">Certificate of Completion</h1>
+    <div id="modal">
+      <button type="button" id="close">X</button>
+      <div class="heading">Certificate of Completion</div>
       <div><span id="participant">You</span> <span id="has-have">have</span>
         completed the ARIA Bootcamp!
       </div>
