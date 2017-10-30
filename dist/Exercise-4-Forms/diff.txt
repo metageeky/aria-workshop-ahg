@@ -1,0 +1,23 @@
+*HTML*
+
+-          <div id="error"></div>
++          <div id="error" role="alert"></div>
+
+-            <input type="text" id="name">
++            <input type="text" id="name" required>
+
+-            <textarea id="question" aria-describedby="instructions"></textarea>
++            <textarea id="question" aria-describedby="instructions" required></textarea>
+
+*JS*
+     // check for empty required fields
+     if ( !$('#name').val() ) {
+       $('#error').text('Please enter your name').show();
++      // place focus in the field with an errror
++      $('#name').focus();
+     }
+     else if ( !$('#question').val() ) {
+       $('#error').text('Please answer the question!').show();
++      // place focus in the field with an errror
++      $('#question').focus();
+     }

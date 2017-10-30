@@ -1,0 +1,57 @@
+*HTML*
+
+-      <div id="banner">
++      <header role="banner" id="banner">
+
+
+-      <div id="menu-wrapper">
+-        <div id="menu">
++      <nav role="navigation" id="menu" aria-label="Main menu">
+
+
+-      <div id="main">
++      <main role="main" id="main">
+
+-            <textarea id="question"></textarea>
++            <textarea id="question" aria-describedby="instructions"></textarea>
+
+-      <div id="sidebar">
++      <aside role="complementary" id="sidebar">
+
+-      <div id="footer">
+-        <div id="footer-links">
++      <footer id="footer">
++        <nav role="navigation" aria-label="UW links">
+
+-        <div id="copyright" role="contentinfo">
++        <div id="copyright">
+
+
+*CSS*
+
+-      #footer-links {
++      /* Footer */
++      footer ul,
++      #footer ul {
++        list-style-type: none;
++      }
++      footer ul li,
++      #footer ul li {
++        display: inline;
++      }
++      footer nav,
++      #footer nav {
+         margin-bottom: 1em;
+       }
+-      #footer-links a {
++      footer nav a,
++      #footer nav a {
++        text-decoration: none;
+         padding: 0 0.5em;
+-        text-decoration: none;
+       }
+       /* No need for dotted border on buttons in Firefox */
+-      button::-moz-focus-inner {
++      *::-moz-focus-inner {
+         border: 0;
+       }

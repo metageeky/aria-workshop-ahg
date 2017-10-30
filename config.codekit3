@@ -9,12 +9,6 @@
 	],
 "creatorBuild": "25900",
 "files": {
-	"\/dist": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "\/dist\/dist",
-		"oF": 0
-		},
 	"\/readme.md": {
 		"cS": 0,
 		"eF": 1,
@@ -33,16 +27,6 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/src\/after-all-changes\/after.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/dist\/after-all-changes\/after.css",
-		"oF": 1,
-		"oS": 3
-		},
 	"\/src\/after-all-changes\/after.js": {
 		"ft": 64,
 		"ma": 0,
@@ -58,16 +42,6 @@
 		"oA": 0,
 		"oAP": "\/dist\/after-all-changes\/index.html",
 		"oF": 1
-		},
-	"\/src\/before-any-changes\/before.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/dist\/before-any-changes\/before.css",
-		"oF": 1,
-		"oS": 3
 		},
 	"\/src\/before-any-changes\/before.js": {
 		"ft": 64,
@@ -103,7 +77,7 @@
 		},
 	"\/src\/Exercise-1-Semantic-HTML\/diff.txt": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/dist\/Exercise-1-Semantic-HTML\/diff.txt",
 		"oF": 1
 		},
@@ -113,16 +87,6 @@
 		"oAP": "\/dist\/Exercise-1-Semantic-HTML\/semantics-solution.html",
 		"oF": 1
 		},
-	"\/src\/Exercise-1-Semantic-HTML\/semantics.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/dist\/Exercise-1-Semantic-HTML\/semantics.css",
-		"oF": 1,
-		"oS": 3
-		},
 	"\/src\/Exercise-2-Landmark-Roles-Labeling\/_landmark.kit": {
 		"ft": 2048,
 		"oA": 0,
@@ -131,7 +95,7 @@
 		},
 	"\/src\/Exercise-2-Landmark-Roles-Labeling\/diff.txt": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/dist\/Exercise-2-Landmark-Roles-Labeling\/diff.txt",
 		"oF": 1
 		},
@@ -149,7 +113,7 @@
 		},
 	"\/src\/Exercise-3-Showing-Hiding-Content\/diff.txt": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/dist\/Exercise-3-Showing-Hiding-Content\/diff.txt",
 		"oF": 1
 		},
@@ -177,7 +141,7 @@
 		},
 	"\/src\/Exercise-4-Forms\/diff.txt": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/dist\/Exercise-4-Forms\/diff.txt",
 		"oF": 1
 		},
@@ -205,7 +169,7 @@
 		},
 	"\/src\/Exercise-5-Modal-Dialogs\/diff.txt": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/dist\/Exercise-5-Modal-Dialogs\/diff.txt",
 		"oF": 1
 		},
@@ -241,7 +205,7 @@
 	"displayValue": "aria-workshop-ahg",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_green",
-	"lastBuiltDate": 530634809
+	"lastBuiltDate": 531025428
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

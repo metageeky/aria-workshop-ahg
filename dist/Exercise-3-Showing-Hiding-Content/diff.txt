@@ -1,0 +1,18 @@
+*JS*
+
+   // toggle supplemental text
+   $('#text-control').on('click', function() {
+     $('#supplemental-text').slideToggle('fast');
+-    if ($(this).attr('aria-expanded') === 'true') {
+-      $(this).attr('aria-expanded', 'false').html('Show more');
++    if ($(this).html() === 'Show less') {
++      $(this).html('Show more');
+     } else {
+-      $(this).attr('aria-expanded', 'true').html('Show less');
++      $(this).html('Show less');
+     }
+   });
+
+*HTML*
+-          <button type="button" id="text-control">Show more</button>
++          <button type="button" id="text-control" aria-controls="supplemental-text" aria-expanded="false">Show more</button>
