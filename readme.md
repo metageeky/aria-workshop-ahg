@@ -8,7 +8,7 @@ Welcome! This repository contains all the workshop files you'll need for our ses
 3. On your local computer, navigate to the recently downloaded zipped archive, and unzip it.
 
 ## Exercise Files
-The exercises you'll be doing in the workshop will require files found in the **"dist"** directory, but don't worry about the details (we'll cover that in the workshop). For now, just make sure you have successfully downloaded the repository to the computer you'll be bringing to the workshop (by following the instructions in the preceding section).
+The exercises you'll be doing in the workshop will require files found in the **"exercises"** directory, but don't worry about the details (we'll cover that in the workshop). For now, just make sure you have successfully downloaded the repository to the computer you'll be bringing to the workshop (by following the instructions in the preceding section).
 
 ## Improving a page's accessibility one step at a time 
 Throughout the session, you'll be working on a web page to improve its overall accessibility. You can see the page (in the browser) in various states of improvement here: 
