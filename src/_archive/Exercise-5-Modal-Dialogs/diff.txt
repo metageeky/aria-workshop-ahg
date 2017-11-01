@@ -1,0 +1,32 @@
+*HTML*
+
+-    <div id="modal">
+-      <button type="button" id="close">X</button>
+-      <div class="heading">Certificate of Completion</div>
++    <div id="modal" role="alertdialog" aria-labelledby="modal-heading">
++      <button type="button" id="close" aria-label="Close dialog">X</button>
++      <h1 id="modal-heading" class="heading">Certificate of Completion</h1>
+
+
+*JAVASCRIPT*
++    // place focus on first focusable element within modal
++    $('#close').focus();
++    $('#content').attr('aria-hidden','true');
++    // listen for tab key, and trap keyboard focus within dialog
++    // In a dialog with more numerous or unknown controls,
++    // could create an array of focusable controls within modal and move
++    // forward or backward through the array as user presses
++    // tab or shift+tab
++    $('#modal button').on('keydown',function(e) {
++      if (e.which === 9) { // tab
++        e.preventDefault();
++        if ($(this).attr('id') === 'ok') {
++          // focus was on the ok button. move focus to close button
++          $('#close').focus();
++        }
++        else {
++          // focus was on the close button. move focus to ok button
++          $('#ok').focus();
++        }
++      }
++    });

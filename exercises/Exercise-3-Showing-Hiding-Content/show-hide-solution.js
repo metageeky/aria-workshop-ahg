@@ -3,10 +3,10 @@ $(document).ready(function() {
   // toggle supplemental text
   $('#text-control').on('click', function() {
     $('#supplemental-text').slideToggle('fast');
-    if ($(this).html() === 'Show less') {
-      $(this).html('Show more');
+    if ($(this).attr('aria-expanded') === 'true') {
+      $(this).attr('aria-expanded', 'false').html('Show more');
     } else {
-      $(this).html('Show less');
+      $(this).attr('aria-expanded', 'true').html('Show less');
     }
   });
 

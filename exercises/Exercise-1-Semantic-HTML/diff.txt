@@ -1,7 +1,7 @@
 *HTML*
 
--        <div id="event-name">ARIA Bootcamp</div>
-+        <h1 id="event-name">ARIA Bootcamp</h1>
+-        <div id="event-name">ARIA Crash Course</div>
++        <h1 id="event-name">ARIA Crash Course</h1>
 
 -        <div class="heading">About this Page</div>
 +        <h2 class="heading">About this Page</h2>

@@ -3,10 +3,10 @@ $(document).ready(function() {
   // toggle supplemental text
   $('#text-control').on('click', function() {
     $('#supplemental-text').slideToggle('fast');
-    if ($(this).html() === 'Show less') {
-      $(this).html('Show more');
+    if ($(this).attr('aria-expanded') === 'true') {
+      $(this).attr('aria-expanded', 'false').html('Show more');
     } else {
-      $(this).html('Show less');
+      $(this).attr('aria-expanded', 'true').html('Show less');
     }
   });
 
@@ -18,9 +18,13 @@ $(document).ready(function() {
     // check for empty required fields
     if ( !$('#name').val() ) {
       $('#error').text('Please enter your name').show();
+      // place focus in the field with an errror
+      $('#name').focus();
     }
     else if ( !$('#question').val() ) {
       $('#error').text('Please answer the question!').show();
+      // place focus in the field with an errror
+      $('#question').focus();
     }
     else {
       // populate certificate with user's name, then show it

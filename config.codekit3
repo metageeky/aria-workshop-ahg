@@ -33,10 +33,54 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/src\/_archive\/Exercise-5-Modal-Dialogs\/_modal.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/exercises\/_archive\/Exercise-5-Modal-Dialogs\/_modal.js",
+		"oF": 1,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/src\/_archive\/Exercise-5-Modal-Dialogs\/_modal.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/exercises\/_archive\/Exercise-5-Modal-Dialogs\/_modal.html",
+		"oF": 1
+		},
+	"\/src\/_archive\/Exercise-5-Modal-Dialogs\/diff.txt": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/exercises\/_archive\/Exercise-5-Modal-Dialogs\/diff.txt",
+		"oF": 1
+		},
+	"\/src\/_archive\/Exercise-5-Modal-Dialogs\/modal-1-solution.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/exercises\/_archive\/Exercise-5-Modal-Dialogs\/modal-1-solution.html",
+		"oF": 1
+		},
+	"\/src\/_archive\/Exercise-5-Modal-Dialogs\/modal-2-solution.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/exercises\/_archive\/Exercise-5-Modal-Dialogs\/modal-2-solution.html",
+		"oF": 1
+		},
+	"\/src\/_archive\/Exercise-5-Modal-Dialogs\/modal1.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/exercises\/_archive\/Exercise-5-Modal-Dialogs\/modal1.js",
+		"oF": 1,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/src\/after-all-changes\/after.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/exercises\/after-all-changes\/after.js",
 		"oF": 1,
@@ -52,7 +96,7 @@
 	"\/src\/before-any-changes\/before.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/exercises\/before-any-changes\/before.js",
 		"oF": 1,
@@ -73,7 +117,7 @@
 		"oA": 0,
 		"oAP": "\/exercises\/common.css",
 		"oF": 1,
-		"oS": 3
+		"oS": 1
 		},
 	"\/src\/Exercise-1-Semantic-HTML\/_semantics.kit": {
 		"ft": 2048,
@@ -111,6 +155,22 @@
 		"oAP": "\/exercises\/Exercise-2-Landmark-Roles-Labeling\/landmark-solution.html",
 		"oF": 1
 		},
+	"\/src\/Exercise-2-Landmark-Roles-Labeling\/solution-master.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/exercises\/Exercise-2-Landmark-Roles-Labeling\/solution-master.html",
+		"oF": 0
+		},
+	"\/src\/Exercise-3-Showing-Hiding-Content\/_show-hide.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "\/exercises\/Exercise-3-Showing-Hiding-Content\/_show-hide.js",
+		"oF": 1,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/src\/Exercise-3-Showing-Hiding-Content\/_show-hide.kit": {
 		"ft": 2048,
 		"oA": 0,
@@ -123,18 +183,34 @@
 		"oAP": "\/exercises\/Exercise-3-Showing-Hiding-Content\/diff.txt",
 		"oF": 1
 		},
+	"\/src\/Exercise-3-Showing-Hiding-Content\/show-hide-solution.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "\/exercises\/Exercise-3-Showing-Hiding-Content\/show-hide-solution.js",
+		"oF": 1,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/src\/Exercise-3-Showing-Hiding-Content\/show-hide-solution.kit": {
 		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/exercises\/Exercise-3-Showing-Hiding-Content\/show-hide-solution.html",
 		"oF": 1
 		},
-	"\/src\/Exercise-3-Showing-Hiding-Content\/show-hide.js": {
+	"\/src\/Exercise-3-Showing-Hiding-Content\/solution-master.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/exercises\/Exercise-3-Showing-Hiding-Content\/solution-master.html",
+		"oF": 0
+		},
+	"\/src\/Exercise-4-Forms\/_forms.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
-		"oAP": "\/exercises\/Exercise-3-Showing-Hiding-Content\/show-hide.js",
+		"oAP": "\/exercises\/Exercise-4-Forms\/_forms.js",
 		"oF": 1,
 		"sC": 1,
 		"tS": 0
@@ -151,13 +227,13 @@
 		"oAP": "\/exercises\/Exercise-4-Forms\/diff.txt",
 		"oF": 1
 		},
-	"\/src\/Exercise-4-Forms\/form.js": {
+	"\/src\/Exercise-4-Forms\/forms-solution.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
-		"oAP": "\/exercises\/Exercise-4-Forms\/form.js",
-		"oF": 1,
+		"oAP": "\/exercises\/Exercise-4-Forms\/forms-solution.js",
+		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
@@ -166,6 +242,22 @@
 		"oA": 0,
 		"oAP": "\/exercises\/Exercise-4-Forms\/forms-solution.html",
 		"oF": 1
+		},
+	"\/src\/Exercise-4-Forms\/solution-master.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/exercises\/Exercise-4-Forms\/solution-master.html",
+		"oF": 0
+		},
+	"\/src\/Exercise-5-Modal-Dialogs\/_modal.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/exercises\/Exercise-5-Modal-Dialogs\/_modal.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"\/src\/Exercise-5-Modal-Dialogs\/_modal.kit": {
 		"ft": 2048,
@@ -185,21 +277,21 @@
 		"oAP": "\/exercises\/Exercise-5-Modal-Dialogs\/modal-1-solution.html",
 		"oF": 0
 		},
-	"\/src\/Exercise-5-Modal-Dialogs\/modal-2-solution.kit": {
-		"ft": 2048,
-		"oA": 0,
-		"oAP": "\/exercises\/Exercise-5-Modal-Dialogs\/modal-2-solution.html",
-		"oF": 0
-		},
-	"\/src\/Exercise-5-Modal-Dialogs\/modal1.js": {
+	"\/src\/Exercise-5-Modal-Dialogs\/modal-solution.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
-		"oAP": "\/exercises\/Exercise-5-Modal-Dialogs\/modal1.js",
+		"oAP": "\/exercises\/Exercise-5-Modal-Dialogs\/modal-solution.js",
 		"oF": 1,
 		"sC": 1,
 		"tS": 0
+		},
+	"\/src\/Exercise-5-Modal-Dialogs\/modal-solution.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/exercises\/Exercise-5-Modal-Dialogs\/modal-solution.html",
+		"oF": 0
 		}
 	},
 "hooks": [
@@ -211,7 +303,7 @@
 	"displayValue": "aria-workshop-ahg",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_green",
-	"lastBuiltDate": 531093318
+	"lastBuiltDate": 531189502
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -1973,7 +2065,7 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 0,
-		"outputStyle": 3,
+		"outputStyle": 1,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0
 		},
@@ -2017,7 +2109,7 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 0,
-		"minifyOutput": 1,
+		"minifyOutput": 0,
 		"syntaxCheckerStyle": 1,
 		"transpilerStyle": 0
 		},
