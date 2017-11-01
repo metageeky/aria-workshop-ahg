@@ -75,6 +75,13 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/src\/after-all-changes\/after-master.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/exercises\/after-all-changes\/after-master.html",
+		"oF": 0
+		},
 	"\/src\/after-all-changes\/after.js": {
 		"ft": 64,
 		"ma": 0,
@@ -253,7 +260,7 @@
 		"mi": 0,
 		"oA": 0,
 		"oAP": "\/exercises\/Exercise-4-Forms\/forms-solution.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 1,
 		"tS": 0
 		},
@@ -275,9 +282,9 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/exercises\/Exercise-5-Modal-Dialogs\/_modal.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 1,
 		"tS": 0
 		},
@@ -294,13 +301,6 @@
 		"oA": 2,
 		"oAP": "\/exercises\/Exercise-5-Modal-Dialogs\/diff.txt",
 		"oF": 1
-		},
-	"\/src\/Exercise-5-Modal-Dialogs\/modal-1-solution.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"oA": 0,
-		"oAP": "\/exercises\/Exercise-5-Modal-Dialogs\/modal-1-solution.html",
-		"oF": 0
 		},
 	"\/src\/Exercise-5-Modal-Dialogs\/modal-solution.js": {
 		"ft": 64,
@@ -329,7 +329,7 @@
 	"displayValue": "aria-workshop-ahg",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_green",
-	"lastBuiltDate": 531240558
+	"lastBuiltDate": 531242401
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

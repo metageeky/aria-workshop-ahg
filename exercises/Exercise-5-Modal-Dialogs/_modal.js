@@ -18,9 +18,13 @@ $(document).ready(function() {
     // check for empty required fields
     if ( !$('#name').val() ) {
       $('#error').text('Please enter your name').show();
+      // place focus in the field with an errror
+      $('#name').focus();
     }
     else if ( !$('#question').val() ) {
       $('#error').text('Please answer the question!').show();
+      // place focus in the field with an errror
+      $('#question').focus();
     }
     else {
       // populate certificate with user's name, then show it
@@ -49,5 +53,5 @@ function hideModal() {
 }
 
 
-// @codekit-prepend "../Exercise-3-Showing-Hiding-Content/show-hide-solution.js";
+// @codekit-prepend "../Exercise-4-Forms/forms-solution.js";
 

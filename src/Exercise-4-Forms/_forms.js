@@ -1,1 +1,1 @@
-// @codekit-prepend "../show-hide-solution.js";
+// @codekit-prepend "../Exercise-3-Showing-Hiding-Content/show-hide-solution.js";
