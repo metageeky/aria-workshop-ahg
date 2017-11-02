@@ -17,5 +17,5 @@ Throughout the session, you'll be working on a web page to improve its overall a
 * <a href="https://cdn.rawgit.com/uwfrontendtech/aria-workshop-ahg/master/exercises/Exercise-2-Landmark-Roles-Labeling/landmark-solution.html">Adding ARIA roles and labels</a>
 * <a href="https://cdn.rawgit.com/uwfrontendtech/aria-workshop-ahg/master/exercises/Exercise-3-Showing-Hiding-Content/show-hide-solution.html">Improving the expand/collapse region</a>
 * <a href="https://cdn.rawgit.com/uwfrontendtech/aria-workshop-ahg/master/exercises/Exercise-4-Forms/forms-solution.html">Improving the form</a>
-* <a href="https://cdn.rawgit.com/uwfrontendtech/aria-workshop-ahg/master/exercises/Exercise-5-Modal-Dialogs/modal-1-solution.html">Improving the modal dialog</a>
+* <a href="https://cdn.rawgit.com/uwfrontendtech/aria-workshop-ahg/master/exercises/Exercise-5-Modal-Dialogs/modal-solution.html">Improving the modal dialog</a>
 * <a href="https://cdn.rawgit.com/uwfrontendtech/aria-workshop-ahg/master/exercises/after-all-changes/">After: an accessible web page!</a>
