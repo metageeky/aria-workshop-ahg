@@ -7,27 +7,35 @@
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <script src="../before-any-changes/before.js"></script>
   </head>
+  <style type="text/css">
+    #footer-links ul {
+      list-style-type: none;
+    }
+    #footer-links ul li {
+      display: inline-block;
+    }
+  </style>
   <body>
 
     <div id="content">
 
-      <div id="banner">
+      <header role="banner" id="banner">
         <div id="uw-name">Accessing Higher Ground</div>
         <h1 id="event-name">ARIA Crash Course</h1>
         <div id="event-date">November 13, 2017</div>
-      </div>
+      </header>
 
       <div id="menu-wrapper">
-        <div id="menu">
+        <nav role="navigation" id="menu" aria-label="Main-meu">
           <ul>
             <li><a href="#">Menu Item 1</a></li>
             <li><a href="#">Menu Item 2</a></li>
             <li class="last"><a href="#">Menu Item 3</a></li>
           </ul>
-        </div>
+        </nav>
       </div>
 
-      <div id="main">
+      <main role="main" id="main">
 
         <h2 class="heading">About this Page</h2>
         <p>This page includes a variety of accessibility problems.
@@ -90,9 +98,9 @@
 
         </form>
 
-      </div>
+      </main>
 
-      <div id="sidebar">
+      <aside id="sidebar">
         <h2 class="heading">Resources</h2>
         <ul>
           <li><a href="http://washington.edu/accessibility">UW Accessible Technology</a></li>
@@ -101,10 +109,10 @@
           <li><a href="http://www.washington.edu/accessibility/web/">Developing Accessible Websites</a></li>
           <li><a href="http://www.washington.edu/accessibility/web/aria/">Using ARIA for Web Applications</a></li>
         </ul>
-      </div>
+      </aside>
 
-      <div id="footer">
-        <div id="footer-links">
+      <footer id="footer">
+        <nav id="footer-links">
           <ul>
             <li><a href="http://uw.edu/home/siteinfo/form">Contact Us</a></li>
             <li><a href="http://www.washington.edu/jobs">Jobs</a></li>
@@ -114,14 +122,14 @@
             <li><a href="http://www.washington.edu/online/privacy/">Privacy</a></li>
             <li><a href="http://www.washington.edu/online/terms/">Terms</a></li>
           </ul>
-        </div>
+        </nav>
         <div id="copyright">
           &copy; 2017 University of Washington. These materials are provided under a
           <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons License</a>
           and in accordance with UW's <a href="http://www.washington.edu/online/privacy/">privacy policy</a>
           and <a href="http://www.washington.edu/online/terms">terms of use</a>.
         </div>
-      </div>
+      </footer>
 
     </div><!-- end #content -->
 
