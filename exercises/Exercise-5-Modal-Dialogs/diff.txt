@@ -9,6 +9,25 @@
 
 
 *JAVASCRIPT*
+-    // handle click on ok button within modal
+-    $('#ok').on('click',function() {
++    // handle click on ok or close button within modal
++    $('#ok, #close').on('click',function() {
+       hideModal();
+     });
++
++    // add support for escape key to close modal
++    $('#ok, #close').on('keyup',function(event) {
++      if (event.which === 27) {
++        hideModal();
++      }
++    });
++
+   });
++
++  function showModal() {
++    $('#modal').show();
++    $('#modal-overlay').show();
 +    // place focus on first focusable element within modal
 +    $('#close').focus();
 +    $('#content').attr('aria-hidden','true');
@@ -30,3 +49,24 @@
 +        }
 +      }
 +    });
++  }
++
++  function hideModal() {
++    $('#modal').hide();
++    $('#modal-overlay').hide();
++    // place focus back on the button that triggered modal
++    $('#submit').focus();
++    $('#content').attr('aria-hidden','false');
++  }
+ 
+ });
+ 
+-function showModal() {
+-  $('#modal').show();
+-  $('#modal-overlay').show();
+-}
+ 
+-function hideModal() {
+-  $('#modal').hide();
+-  $('#modal-overlay').hide();
+-}

@@ -13,11 +13,11 @@
      // check for empty required fields
      if ( !$('#name').val() ) {
        $('#error').text('Please enter your name').show();
-+      // place focus in the field with an errror
++      // place focus in the field with an error
 +      $('#name').focus();
      }
      else if ( !$('#question').val() ) {
        $('#error').text('Please answer the question!').show();
-+      // place focus in the field with an errror
++      // place focus in the field with an error
 +      $('#question').focus();
      }

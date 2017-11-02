@@ -9,6 +9,12 @@
 	],
 "creatorBuild": "26097",
 "files": {
+	"\/exercises": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/exercises\/exercises",
+		"oF": 0
+		},
 	"\/readme.md": {
 		"cB": 0,
 		"cS": 0,
@@ -153,6 +159,13 @@
 		"oA": 0,
 		"oAP": "\/exercises\/Exercise-1-Semantic-HTML\/semantics-solution.html",
 		"oF": 1
+		},
+	"\/src\/Exercise-1-Semantic-HTML\/solution-master.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/exercises\/Exercise-1-Semantic-HTML\/solution-master.html",
+		"oF": 0
 		},
 	"\/src\/Exercise-2-Landmark-Roles-Labeling\/_landmark.kit": {
 		"cB": 0,
@@ -329,7 +342,7 @@
 	"displayValue": "aria-workshop-ahg",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_green",
-	"lastBuiltDate": 531242401
+	"lastBuiltDate": 531286672
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
