@@ -19,3 +19,5 @@ Throughout the session, you'll be working on a web page to improve its overall a
 * <a href="https://cdn.rawgit.com/uwfrontendtech/aria-workshop-ahg/master/exercises/Exercise-4-Forms/forms-solution.html">Improving the form</a>
 * <a href="https://cdn.rawgit.com/uwfrontendtech/aria-workshop-ahg/master/exercises/Exercise-5-Modal-Dialogs/modal-solution.html">Improving the modal dialog</a>
 * <a href="https://cdn.rawgit.com/uwfrontendtech/aria-workshop-ahg/master/exercises/after-all-changes/">After: an accessible web page!</a>
+
+## <a href="https://github.com/uwfrontendtech/aria-workshop-ahg/tree/master/presentation-content">Presentation slides and content</a>
